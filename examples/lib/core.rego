@@ -28,6 +28,8 @@ apiVersion = resource.apiVersion
 
 name = resource.metadata.name
 
+namespace = resource.metadata.namespace
+
 kind = resource.kind
 
 labels = resource.metadata.labels
